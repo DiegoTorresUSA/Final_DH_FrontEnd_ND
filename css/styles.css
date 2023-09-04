@@ -1,0 +1,16 @@
+:root{
+/* Colores*/
+    --botones-violeta: #8B48BF;
+    --fondos-celeste: #3CDDF3;
+    --azul-grisáceo-oscuro: #1E1E26;
+    --azul-muy-oscuro: #232851;
+    --variante-gris-claro: #B3B2B7;
+/* Typo*/
+    --font-m: 16px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
