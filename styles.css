@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+/*colores*/
+--botones-violeta: #8B48BF;
+--fondo-celeste: #3CDDF3;
+--azul-grisáceo-oscuro: #1E1E26;
+--azul-muy-oscuro: #232851;
+--variante-gris-claro: #B3B2B7;
+/* Typo*/
+--font-m: 16px;
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro, sans-serif';
+}
+
+.container{
+    width: 480px;
+    height: 3593px;
+    min-width: 320px;
+    max-width: 480px;
+    position: relative;
+} 
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+text-align: left;
+border: ;
+}
+.logo{
+    width: 107.68px;
+    height: 25px;
+    ;
+
+}
+.padel-intro{
+    width: 400px;
+    height: 341.53px;
+}
+h1 {
+    color: #232851;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57.3px;
+    align: right;
+}
+
+.contenedor2 {
+    background-color: #3CDDF3;
+    color:white
+}
+
