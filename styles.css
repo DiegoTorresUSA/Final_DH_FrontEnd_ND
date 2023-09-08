@@ -2,6 +2,7 @@
 
 :root{
 /* Colores*/
+    --link-1: #eb4034;
     --botones-violeta: #8B48BF;
     --fondos-celeste: #3CDDF3;
     --azul-grisáceo-oscuro: #1E1E26;
@@ -18,15 +19,16 @@
     padding: 0;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+body {
+    overflow-x: hidden;
+}
 
 /*--------------Seccion Mobile--------------------*/
 .container{
     width: 100%;
-    height: 3320px;
+    max-width: 100%;
+    height: 3285px;
     min-width: 480px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
 }
 .container--menu{
     width: 100%;
@@ -102,7 +104,7 @@
     align-self: end;
 }
 .container--section-dos{
-    /*width: 100%;*/
+    width: 100%;
     background-color: var(--fondos-celeste);
     height: 300px;
     display: flex;
@@ -374,18 +376,46 @@ p{
     width: 134px;
     height:44px;
 }
+.container--info_desktop{
+     display: none;
+ }
+.container--testimonios-desktop{
+    display: none;
+}
+h4{
+    display: none;
+}
+.container--section-tres-desktop{
+    display: none;
+}
+.container--footer-desktop{
+    display: none;
+}
+
+
 /*--------------Seccion Desktop--------------------*/
 
 
 /***************Media Queries**************/
-/*@media (min-width: 1440px) {
-
-}
-
-
 
 @media (min-width: 1439px) {
     .container--menu{
         display: none;
     }
-}*/
+    .container--info{
+        display: none;
+    }
+    .container--info_desktop{
+        display: flex;
+    }
+    .container--testimonios{
+        display: none;
+    }
+    .container--section-tres{
+         display: none;
+     }
+    footer{
+        display: none;
+    }
+
+}
